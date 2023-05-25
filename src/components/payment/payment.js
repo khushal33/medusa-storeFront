@@ -4,8 +4,9 @@ import { useCart } from "medusa-react"
 import React, { useMemo } from "react"
 import PaymentForm from "./payment-form"
 
-const STRIPE_KEY = process.env.NEXT_PUBLIC_STRIPE_API_KEY || ""
+const STRIPE_KEY = process.env.NEXT_PUBLIC_STRIPE_API_KEY || "pk_test_51NBIFySCmS4G9Nhptld4zW5q3el6uKdZH9g5f1dOTnGhERGAABkt4wJYpyP4h5RdiHTsAWS04xff5t560A6T1qkr00GF6m2g76"
 const stripePromise = loadStripe(STRIPE_KEY)
+
 
 const Payment = ({ handleSubmit, setLoading }) => {
   const { cart } = useCart()
