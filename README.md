@@ -94,3 +94,4 @@ Start up both your Medusa server and Medusa Express and try it out!
 Medusa Express is running at `http://localhost:8000`!
 
 > **Important**: Medusa Express requires existing product. Either seed your Medusa server with some dummy products, or create your own through Medusa Admin.
+# medusa-storeFront
